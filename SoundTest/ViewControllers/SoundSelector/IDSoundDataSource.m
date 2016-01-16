@@ -23,15 +23,16 @@ static NSDictionary *sounds = nil;
     sounds = [tmpSounds copy];
 }
 
+- (void)dealloc {
+    [[NSNotificationCenter defaultCenter] removeObserver:self];
+}
+
 - (instancetype)init {
     self = [super init];
     if (self) {
-        [OALSimpleAudio sharedInstance].allowIpod = NO;
-        [OALSimpleAudio sharedInstance].honorSilentSwitch = YES;
-
-        for (NSNumber *key in sounds.allKeys){
-            [[OALSimpleAudio sharedInstance] preloadEffect:[NSString stringWithFormat:@"Sounds/%@", sounds[key]]];
-        }
+        [self configureAudio];
+        [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(applicationDidBecomeActive) name:UIApplicationDidBecomeActiveNotification object:nil];
+        [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(applicationDidEnterBackground) name:UIApplicationDidEnterBackgroundNotification object:nil];
     }
 
     return self;
@@ -55,6 +56,27 @@ static NSString *const kSoundCellIdentifier = @"soundCell";
     }
     cell.textLabel.text = sounds[@(indexPath.row)];
     return cell;
+}
+
+#pragma mark - Private methods
+
+- (void)configureAudio {
+    [OALSimpleAudio sharedInstance].allowIpod = NO;
+    [OALSimpleAudio sharedInstance].honorSilentSwitch = YES;
+
+    for (NSNumber *key in sounds.allKeys){
+        [[OALSimpleAudio sharedInstance] preloadEffect:[NSString stringWithFormat:@"Sounds/%@", sounds[key]]];
+    }
+}
+
+#pragma mark - Application notifications
+
+- (void)applicationDidEnterBackground {
+    [[OALSimpleAudio sharedInstance] setPaused:YES];
+}
+
+- (void)applicationDidBecomeActive {
+    [[OALSimpleAudio sharedInstance] setPaused:NO];
 }
 
 @end

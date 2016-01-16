@@ -1,24 +1,24 @@
 //
-//  AppDelegate.m
+//  IDAppDelegate.m
 //  SoundTest
 //
 //  Created by Ignacio Delgado on 16/01/2016.
-//  Copyright © 2016 ID. All rights reserved.
+//  Copyright © 2016 Ignacio Delgado. All rights reserved.
 //
 
-#import "AppDelegate.h"
-#import "ViewController.h"
+#import "IDAppDelegate.h"
+#import "IDSoundSelectorViewController.h"
 
-@interface AppDelegate ()
+@interface IDAppDelegate ()
 
 @end
 
-@implementation AppDelegate
+@implementation IDAppDelegate
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
-    self.window.rootViewController = [[UINavigationController alloc] initWithRootViewController:[ViewController new]];
+    self.window.rootViewController = [[UINavigationController alloc] initWithRootViewController:[IDSoundSelectorViewController new]];
     [self.window makeKeyAndVisible];
     return YES;
 }

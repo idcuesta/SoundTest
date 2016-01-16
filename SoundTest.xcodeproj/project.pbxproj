@@ -7,24 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		66D8DA061C4A61DC00401AEC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 66D8DA051C4A61DC00401AEC /* main.m */; };
-		66D8DA091C4A61DC00401AEC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 66D8DA081C4A61DC00401AEC /* AppDelegate.m */; };
-		66D8DA0C1C4A61DC00401AEC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 66D8DA0B1C4A61DC00401AEC /* ViewController.m */; };
-		66D8DA111C4A61DC00401AEC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 66D8DA101C4A61DC00401AEC /* Assets.xcassets */; };
-		66D8DA141C4A61DC00401AEC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 66D8DA121C4A61DC00401AEC /* LaunchScreen.storyboard */; };
+		63BB2A3DE85D00764A97E35A /* IDSoundSelectorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63BB2F16EFE3F995FE298555 /* IDSoundSelectorViewController.m */; };
+		66D8DA291C4A6AF500401AEC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 66D8DA201C4A6AF500401AEC /* Assets.xcassets */; };
+		66D8DA2A1C4A6AF500401AEC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 66D8DA211C4A6AF500401AEC /* LaunchScreen.storyboard */; };
+		66D8DA2B1C4A6AF500401AEC /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 66D8DA241C4A6AF500401AEC /* Info.plist */; };
+		66D8DA2C1C4A6AF500401AEC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 66D8DA251C4A6AF500401AEC /* main.m */; };
+		66D8DA2E1C4A6B8200401AEC /* IDAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 66D8DA1E1C4A6AF500401AEC /* IDAppDelegate.m */; };
 		FD0643266D695AE42BAEA616 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C64C3A801D5EAA4949F732C2 /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		63BB2935A05E7A834790B0C3 /* IDSoundSelectorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IDSoundSelectorViewController.h; sourceTree = "<group>"; };
+		63BB2F16EFE3F995FE298555 /* IDSoundSelectorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IDSoundSelectorViewController.m; sourceTree = "<group>"; };
 		66D8DA011C4A61DC00401AEC /* SoundTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SoundTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		66D8DA051C4A61DC00401AEC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		66D8DA071C4A61DC00401AEC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		66D8DA081C4A61DC00401AEC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		66D8DA0A1C4A61DC00401AEC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		66D8DA0B1C4A61DC00401AEC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		66D8DA101C4A61DC00401AEC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		66D8DA131C4A61DC00401AEC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		66D8DA151C4A61DC00401AEC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		66D8DA1D1C4A6AF500401AEC /* IDAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IDAppDelegate.h; sourceTree = "<group>"; };
+		66D8DA1E1C4A6AF500401AEC /* IDAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IDAppDelegate.m; sourceTree = "<group>"; };
+		66D8DA201C4A6AF500401AEC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		66D8DA221C4A6AF500401AEC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		66D8DA241C4A6AF500401AEC /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		66D8DA251C4A6AF500401AEC /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		8AC93E4B09BF1E0AE5717E2F /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		A3BA7CB304BA84121FA091BD /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		C64C3A801D5EAA4949F732C2 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -51,6 +52,23 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		63BB2A4CBC34D7CD24251F03 /* SoundSelector */ = {
+			isa = PBXGroup;
+			children = (
+				63BB2F16EFE3F995FE298555 /* IDSoundSelectorViewController.m */,
+				63BB2935A05E7A834790B0C3 /* IDSoundSelectorViewController.h */,
+			);
+			path = SoundSelector;
+			sourceTree = "<group>";
+		};
+		63BB2D60E75031913A2106ED /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				63BB2A4CBC34D7CD24251F03 /* SoundSelector */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
 		66C2AE0641056BEA976A48EF /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -62,7 +80,7 @@
 		66D8D9F81C4A61DC00401AEC = {
 			isa = PBXGroup;
 			children = (
-				66D8DA031C4A61DC00401AEC /* SoundTest */,
+				66D8DA1B1C4A6AF500401AEC /* SoundTest */,
 				66D8DA021C4A61DC00401AEC /* Products */,
 				09C59EA0A72DB7D74FBA50EF /* Pods */,
 				66C2AE0641056BEA976A48EF /* Frameworks */,
@@ -77,27 +95,42 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		66D8DA031C4A61DC00401AEC /* SoundTest */ = {
+		66D8DA1B1C4A6AF500401AEC /* SoundTest */ = {
 			isa = PBXGroup;
 			children = (
-				66D8DA071C4A61DC00401AEC /* AppDelegate.h */,
-				66D8DA081C4A61DC00401AEC /* AppDelegate.m */,
-				66D8DA0A1C4A61DC00401AEC /* ViewController.h */,
-				66D8DA0B1C4A61DC00401AEC /* ViewController.m */,
-				66D8DA101C4A61DC00401AEC /* Assets.xcassets */,
-				66D8DA121C4A61DC00401AEC /* LaunchScreen.storyboard */,
-				66D8DA151C4A61DC00401AEC /* Info.plist */,
-				66D8DA041C4A61DC00401AEC /* Supporting Files */,
+				66D8DA1C1C4A6AF500401AEC /* AppDelegate */,
+				66D8DA1F1C4A6AF500401AEC /* Resources */,
+				66D8DA231C4A6AF500401AEC /* Supporting Files */,
+				63BB2D60E75031913A2106ED /* ViewControllers */,
 			);
 			path = SoundTest;
 			sourceTree = "<group>";
 		};
-		66D8DA041C4A61DC00401AEC /* Supporting Files */ = {
+		66D8DA1C1C4A6AF500401AEC /* AppDelegate */ = {
 			isa = PBXGroup;
 			children = (
-				66D8DA051C4A61DC00401AEC /* main.m */,
+				66D8DA1D1C4A6AF500401AEC /* IDAppDelegate.h */,
+				66D8DA1E1C4A6AF500401AEC /* IDAppDelegate.m */,
 			);
-			name = "Supporting Files";
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		66D8DA1F1C4A6AF500401AEC /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				66D8DA201C4A6AF500401AEC /* Assets.xcassets */,
+				66D8DA211C4A6AF500401AEC /* LaunchScreen.storyboard */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		66D8DA231C4A6AF500401AEC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				66D8DA241C4A6AF500401AEC /* Info.plist */,
+				66D8DA251C4A6AF500401AEC /* main.m */,
+			);
+			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -130,7 +163,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0720;
-				ORGANIZATIONNAME = ID;
+				ORGANIZATIONNAME = "Ignacio Delgado";
 				TargetAttributes = {
 					66D8DA001C4A61DC00401AEC = {
 						CreatedOnToolsVersion = 7.2;
@@ -160,8 +193,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				66D8DA141C4A61DC00401AEC /* LaunchScreen.storyboard in Resources */,
-				66D8DA111C4A61DC00401AEC /* Assets.xcassets in Resources */,
+				66D8DA291C4A6AF500401AEC /* Assets.xcassets in Resources */,
+				66D8DA2A1C4A6AF500401AEC /* LaunchScreen.storyboard in Resources */,
+				66D8DA2B1C4A6AF500401AEC /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -220,19 +254,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				66D8DA0C1C4A61DC00401AEC /* ViewController.m in Sources */,
-				66D8DA091C4A61DC00401AEC /* AppDelegate.m in Sources */,
-				66D8DA061C4A61DC00401AEC /* main.m in Sources */,
+				66D8DA2C1C4A6AF500401AEC /* main.m in Sources */,
+				66D8DA2E1C4A6B8200401AEC /* IDAppDelegate.m in Sources */,
+				63BB2A3DE85D00764A97E35A /* IDSoundSelectorViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		66D8DA121C4A61DC00401AEC /* LaunchScreen.storyboard */ = {
+		66D8DA211C4A6AF500401AEC /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				66D8DA131C4A61DC00401AEC /* Base */,
+				66D8DA221C4A6AF500401AEC /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -325,7 +359,7 @@
 			baseConfigurationReference = A3BA7CB304BA84121FA091BD /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = SoundTest/Info.plist;
+				INFOPLIST_FILE = "SoundTest/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = es.idc.SoundTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -337,7 +371,7 @@
 			baseConfigurationReference = 8AC93E4B09BF1E0AE5717E2F /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = SoundTest/Info.plist;
+				INFOPLIST_FILE = "SoundTest/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = es.idc.SoundTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";

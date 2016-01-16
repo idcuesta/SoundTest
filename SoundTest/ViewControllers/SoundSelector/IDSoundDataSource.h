@@ -5,6 +5,6 @@
 
 #import <UIKit/UIKit.h>
 
-
-@interface IDSoundSelectorViewController : UIViewController <UITableViewDelegate>
+@interface IDSoundDataSource : NSObject <UITableViewDataSource>
+- (void)playSoundAtIndexPath:(NSIndexPath *)indexPath;
 @end

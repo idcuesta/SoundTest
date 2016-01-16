@@ -7,17 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		63BB24624770AD96991DC55A /* IDSoundDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 63BB242523E4DBD83E85551D /* IDSoundDataSource.m */; };
 		63BB2A3DE85D00764A97E35A /* IDSoundSelectorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63BB2F16EFE3F995FE298555 /* IDSoundSelectorViewController.m */; };
 		66D8DA291C4A6AF500401AEC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 66D8DA201C4A6AF500401AEC /* Assets.xcassets */; };
 		66D8DA2A1C4A6AF500401AEC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 66D8DA211C4A6AF500401AEC /* LaunchScreen.storyboard */; };
-		66D8DA2B1C4A6AF500401AEC /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 66D8DA241C4A6AF500401AEC /* Info.plist */; };
 		66D8DA2C1C4A6AF500401AEC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 66D8DA251C4A6AF500401AEC /* main.m */; };
 		66D8DA2E1C4A6B8200401AEC /* IDAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 66D8DA1E1C4A6AF500401AEC /* IDAppDelegate.m */; };
+		66D8DA301C4A783200401AEC /* Sounds in Resources */ = {isa = PBXBuildFile; fileRef = 66D8DA2F1C4A783200401AEC /* Sounds */; };
 		FD0643266D695AE42BAEA616 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C64C3A801D5EAA4949F732C2 /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		63BB242523E4DBD83E85551D /* IDSoundDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IDSoundDataSource.m; sourceTree = "<group>"; };
 		63BB2935A05E7A834790B0C3 /* IDSoundSelectorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IDSoundSelectorViewController.h; sourceTree = "<group>"; };
+		63BB2D3C3D267A15C3C88629 /* IDSoundDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IDSoundDataSource.h; sourceTree = "<group>"; };
 		63BB2F16EFE3F995FE298555 /* IDSoundSelectorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IDSoundSelectorViewController.m; sourceTree = "<group>"; };
 		66D8DA011C4A61DC00401AEC /* SoundTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SoundTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		66D8DA1D1C4A6AF500401AEC /* IDAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IDAppDelegate.h; sourceTree = "<group>"; };
@@ -26,6 +29,7 @@
 		66D8DA221C4A6AF500401AEC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		66D8DA241C4A6AF500401AEC /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		66D8DA251C4A6AF500401AEC /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		66D8DA2F1C4A783200401AEC /* Sounds */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Sounds; sourceTree = "<group>"; };
 		8AC93E4B09BF1E0AE5717E2F /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		A3BA7CB304BA84121FA091BD /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		C64C3A801D5EAA4949F732C2 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -57,6 +61,8 @@
 			children = (
 				63BB2F16EFE3F995FE298555 /* IDSoundSelectorViewController.m */,
 				63BB2935A05E7A834790B0C3 /* IDSoundSelectorViewController.h */,
+				63BB242523E4DBD83E85551D /* IDSoundDataSource.m */,
+				63BB2D3C3D267A15C3C88629 /* IDSoundDataSource.h */,
 			);
 			path = SoundSelector;
 			sourceTree = "<group>";
@@ -118,6 +124,7 @@
 		66D8DA1F1C4A6AF500401AEC /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				66D8DA2F1C4A783200401AEC /* Sounds */,
 				66D8DA201C4A6AF500401AEC /* Assets.xcassets */,
 				66D8DA211C4A6AF500401AEC /* LaunchScreen.storyboard */,
 			);
@@ -195,7 +202,7 @@
 			files = (
 				66D8DA291C4A6AF500401AEC /* Assets.xcassets in Resources */,
 				66D8DA2A1C4A6AF500401AEC /* LaunchScreen.storyboard in Resources */,
-				66D8DA2B1C4A6AF500401AEC /* Info.plist in Resources */,
+				66D8DA301C4A783200401AEC /* Sounds in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,6 +264,7 @@
 				66D8DA2C1C4A6AF500401AEC /* main.m in Sources */,
 				66D8DA2E1C4A6B8200401AEC /* IDAppDelegate.m in Sources */,
 				63BB2A3DE85D00764A97E35A /* IDSoundSelectorViewController.m in Sources */,
+				63BB24624770AD96991DC55A /* IDSoundDataSource.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

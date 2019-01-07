@@ -14,15 +14,25 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>PureLayout.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>709D484DF2EE7BA6E7A0A2EA10EB86D5</key>
+		<key>566E81807EC89B4B8B79C44F0A529FF3</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
 		<key>A7668654C20FE79E2B39F1EC91C5995B</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>C76F820CDDF3973674F2675361301235</key>
 		<dict>
 			<key>primary</key>
 			<true/>
